@@ -18,13 +18,13 @@
           Crear
         </button>
   
-        <button class="p-2.5 hover:bg-[#FDFDFD] rounded-xl transition-all duration-200 text-[#727272] hover:text-[#0D0D0D]">
+        <button class="p-2.5 bg-[#FDFDFD] rounded-xl transition-all duration-200 text-[#727272] hover:text-[#0D0D0D]">
           <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
             <path d="M6 8a6 6 0 0 1 12 0c0 7 3 9 3 9H3s3-2 3-9"/><path d="M10.3 21a1.94 1.94 0 0 0 3.4 0"/>
           </svg>
         </button>
   
-        <button class="p-2.5 hover:bg-[#FDFDFD] rounded-xl transition-all duration-200 text-[#727272] hover:text-[#0D0D0D]">
+        <button class="p-2.5 bg-[#FDFDFD] rounded-xl transition-all duration-200 text-[#727272] hover:text-[#0D0D0D]">
           <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
             <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/>
           </svg>
