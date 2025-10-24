@@ -1,18 +1,18 @@
   <template>
-    <div class="grid grid-cols-3 gap-6">
-      <div class="col-span-2 grid gap-6">
-        <div class="flex flex-col gap-6 bg-[#FDFDFD] rounded-3xl shadow-md p-6">
+    <div class="grid grid-cols-1 lg:grid-cols-3 gap-4 sm:gap-5 md:gap-6">
+      <div class="lg:col-span-2 grid gap-4 sm:gap-5 md:gap-6">
+        <div class="flex flex-col gap-4 sm:gap-5 md:gap-6 bg-[#FDFDFD] rounded-2xl sm:rounded-3xl shadow-md p-4 sm:p-5 md:p-6">
 
           <KpiCard title="Ventas Totales" value="4.000" subtitle="Ventas totales del mes en base a las subscripciones" :icon="DollarSign" />
           <KpiCard title="Servicio más Vendido" value="Ecommerce Shopify" subtitle="Productos más vendidos del mes"
             :icon="TrendingUp" />
         </div>
-        <div class="bg-[#FDFDFD] rounded-3xl shadow-md p-6 max-h-[600px] overflow-y-auto">
+        <div class="bg-[#FDFDFD] rounded-2xl sm:rounded-3xl shadow-md p-4 sm:p-5 md:p-6 max-h-[500px] sm:max-h-[600px] overflow-y-auto">
           <UserComponents title="Personal Activo" :users="staffMembers" />
         </div>
       </div>
-      <div class="grid gap-6">
-        <div class="bg-[#FDFDFD] rounded-3xl shadow-md p-6">
+      <div class="grid gap-4 sm:gap-5 md:gap-6">
+        <div class="bg-[#FDFDFD] rounded-2xl sm:rounded-3xl shadow-md p-4 sm:p-5 md:p-6">
           <CalendarEvents title="Próximos Eventos" :events="upcomingEvents" />
         </div>
       </div>
